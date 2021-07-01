@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+header {
+    color: white;
+}
+
+ul.list {
+    list-style-type: none;
+}
+
+div.secondary-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 55px 4px 90px;
+}
+
+div.container-span span {
+    padding-left: 12px;
+}
+
+div.main-header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 25px 45px;
+}
+
+div.main-header i.menu{
+    display: none;
+}
+
+div.main-header nav li {
+    display: inline;
+    padding-right: 20px;
+}
+
+div.main-header nav li i {
+    padding-right: 4px;
+}
+
+ul.ul-main-header li>a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Banner*/
+section.banner {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+    height: 600px;
+    background-size: cover;
+}
+
+div.banner-text {
+    align-items: center;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    width: 450px;
+}
+
+h3.banner-title {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    width: 400px;
+}
+
+div.banner-text p {
+    font-size: 16px;
+}
+
+button.btn-banner {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+}
+
+/*Productos*/
+section.product-section {
+    color: #3C2313;
+    margin-bottom: 20px;
+}
+
+div.product-top {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 95px;
+    display: flex;
+}
+
+div.product-top h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+div.product-top div span {
+    color: #948686;
+    padding-right: 12px;
+}
+
+div.product-articles {
+    display: flex;
+    justify-content: space-evenly;
+    top: 50px;
+}
+
+article.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.product-name {
+    font-weight: 500;
+}
+
+p.product-price {
+    color: #F0A83E;
+}
+
+/*Contact section*/
+div.contact {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 100px;
+    display: flex;
+}
+
+div.contact-form {
+    align-items: center;
+    color: #3C2313;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    top: 20px;
+    width: 350px;
+    display: flex;
+}
+
+input.field {
+    border-radius: 15px;
+    height: 40px;
+    width: 340px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input.field::placeholder {
+    color: white;
+    font-size: 9px;
+    padding-left: 15px;
+}
+
+input.field.main-form {
+    margin-bottom: 10px;
+}
+
+input.main-form {
+    background-color: #3C2313;
+}
+
+div.form-btns {
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+
+input.form-btn {
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    height: 34px;
+    margin-left: 6px;
+    width: 100px;
+}
+
+input.reset-form {
+    background-color: #8A8787;
+}
+
+input.submit-form {
+    background-color: #F0A83E;
+}
+
+div.subscribe-form {
+    background-color: #F0A83E;
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 10px 47px 10px 23px;
+}
+
+div.subscribe-text {
+    display: flex;
+}
+
+div.subscribe-text img {
+    padding-right: 10px;
+}
+
+input.subscribe-input::placeholder {
+    color: #A0A0A0;
+}
+
+input.subscribe-btn {
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    height: 34px;
+    width: 70px;
+}
+
+/*Footer*/
+footer {
+    background-color: #3C2313;
+    color: white;
+}
+
+div.footer-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 70px;
+}
+
+div.iconos-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+div.iconos-item i {
+    margin-right: 30px;
+}
+
+div.iconos-text p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.iconos-text h6 {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+i.i-footer {
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid rgb(83, 83, 83);
+    display: flex;
+    font-size: 30px;
+    height: 55px;
+    justify-content: center;
+    width: 55px;
+}
+
+.secundary-footer {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+}
+
+@media(max-width:768px){
+
+}
+@media(max-width:420px){
+    div.secondary-header{
+        display: none;
+    }
+    div.main-header i.menu{
+        display: block;
+    }
+    div.main-header nav {
+        display: none;
+    }
+    section.banner{
+        height: 450px;
+    }
+    div.banner-text {
+        align-items: flex-end;
+        top: 250px;
+        right: 15px;
+    }
+    h3.banner-title {
+font-size: 25px;
+width: 300px;
+    }
+    button.btn-banner {
+        margin-right: 25px;
+    }
+    div.product-top {
+        margin: 20px 20px;
+    }
+    div.product-top h2 {
+    font-size: 25px;
+}
+div.product-articles {
+    flex-direction: column;
+}
+div.subscribe-form h2{
+    font-size:18px;
+}
+div.subscribe-form {
+    flex-direction: column;
+        height: 80px;
+}
+input.field.subscribe-input {
+    height: 30px;
+    width: 260px;
+    margin-right: 5px;
+}
+div.footer-box {
+    flex-direction: column-reverse;
+}
+img.footer-logo {
+    margin-bottom: 10px;
+}
+}
