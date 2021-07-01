@@ -300,7 +300,12 @@ i.i-footer {
 }
 
 @media(max-width:768px){
-
+    div.subscribe-form h2{
+        font-size:18px;
+    }
+    input.field.subscribe-input {
+        width: 250px;
+    }
 }
 @media(max-width:420px){
     div.secondary-header{
@@ -337,7 +342,7 @@ div.product-articles {
     flex-direction: column;
 }
 div.subscribe-form h2{
-    font-size:18px;
+    font-size:16px;
 }
 div.subscribe-form {
     flex-direction: column;
@@ -345,8 +350,11 @@ div.subscribe-form {
 }
 input.field.subscribe-input {
     height: 30px;
-    width: 260px;
+    width: 200px;
     margin-right: 5px;
+}
+input.form-btn {
+    width: 160px;
 }
 div.footer-box {
     flex-direction: column-reverse;
