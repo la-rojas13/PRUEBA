@@ -37,7 +37,7 @@ div.main-header {
     padding: 25px 40px 25px 45px;
 }
 
-div.main-header i.menu{
+div.main-header i.menu {
     display: none;
 }
 
@@ -299,67 +299,96 @@ i.i-footer {
     text-align: center;
 }
 
-@media(max-width:768px){
-    div.subscribe-form h2{
-        font-size:18px;
+@media(max-width:768px) {
+    article.product-card {
+        margin: 5px;
     }
+
+    img.product-img {
+        width: 85%;
+    }
+
+    div.subscribe-form h2 {
+        font-size: 18px;
+    }
+
     input.field.subscribe-input {
         width: 250px;
     }
 }
-@media(max-width:420px){
-    div.secondary-header{
+
+@media(max-width:420px) {
+    i.fas.fa-bars.menu {
+        font-size: 25px;
+    }
+
+    div.secondary-header {
         display: none;
     }
-    div.main-header i.menu{
+
+    div.main-header i.menu {
         display: block;
     }
+
     div.main-header nav {
         display: none;
     }
-    section.banner{
+
+    section.banner {
         height: 450px;
     }
+
     div.banner-text {
         align-items: flex-end;
         top: 250px;
         right: 15px;
     }
+
     h3.banner-title {
-font-size: 25px;
-width: 300px;
+        font-size: 25px;
+        width: 300px;
     }
+
     button.btn-banner {
         margin-right: 25px;
     }
+
     div.product-top {
         margin: 20px 20px;
     }
+
     div.product-top h2 {
-    font-size: 25px;
-}
-div.product-articles {
-    flex-direction: column;
-}
-div.subscribe-form h2{
-    font-size:16px;
-}
-div.subscribe-form {
-    flex-direction: column;
+        font-size: 25px;
+    }
+
+    div.product-articles {
+        flex-direction: column;
+    }
+
+    div.subscribe-form h2 {
+        font-size: 16px;
+    }
+
+    div.subscribe-form {
+        flex-direction: column;
         height: 80px;
-}
-input.field.subscribe-input {
-    height: 30px;
-    width: 200px;
-    margin-right: 5px;
-}
-input.form-btn {
-    width: 160px;
-}
-div.footer-box {
-    flex-direction: column-reverse;
-}
-img.footer-logo {
-    margin-bottom: 10px;
-}
+    }
+
+    input.field.subscribe-input {
+        height: 30px;
+        width: 200px;
+        margin-right: 5px;
+    }
+
+    input.form-btn {
+        width: 160px;
+    }
+
+    div.footer-box {
+        flex-direction: column-reverse;
+    }
+
+    img.footer-logo {
+        margin-bottom: 10px;
+    }
 }
